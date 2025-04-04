@@ -1,0 +1,40 @@
+[
+    {
+        "name": "fathy",
+        "email": "fathy@gmail.com",
+        "address": "Menouf",
+        "phone": "010213594513",
+        "notes": "good",
+        "items": [
+            {
+                "name": "Fancy Product",
+                "price": "120.00",
+                "quantity": 4
+            }
+        ]
+    },
+    {
+        "name": "mohamed",
+        "email": "mohamed@gmail.com",
+        "address": "Cairo",
+        "phone": "01289364510",
+        "notes": "Very Good",
+        "items": [
+            {
+                "name": "Fancy Product",
+                "price": "40.00",
+                "quantity": 3
+            },
+            {
+                "name": "Sale Item",
+                "price": "50.00",
+                "quantity": 1
+            },
+            {
+                "name": "Special Item",
+                "price": "20.00",
+                "quantity": 5
+            }
+        ]
+    }
+]

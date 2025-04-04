@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "fathy",
+        "email": "fathy@gmail.com",
+        "password": "$2y$10$tqWbXwTV9O\/nBOhpYn2gV.DXL3W7MGwitLozbE8Dv1sS2.s80ieJq"
+    },
+    {
+        "id": 2,
+        "name": "fathy2",
+        "email": "fathyelnaa@gmail.com",
+        "password": "$2y$10$jNSYnYROorjjxNRiJs3Va.xC4GMdWd3ciM5OLvAGeQ1SjQAPHy9xe"
+    },
+    {
+        "id": 3,
+        "name": "mohamed",
+        "email": "mohamed@gmail.com",
+        "password": "$2y$10$7RLLjiA\/JLrDdytQ1qUsnuisFr1cvjcYujyS7x7owaFz.R6BVs.FK"
+    },
+    {
+        "id": 4,
+        "name": "fathy12",
+        "email": "fathy12@gmail.com",
+        "password": "$2y$10$FJVxWfCCTQowlgp7u7M3wuq8ucRKQy5oj\/COTIAxRC6XMqR7bdGle"
+    }
+]

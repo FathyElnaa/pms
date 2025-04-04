@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Item_Populer",
+        "price": "15",
+        "type": "Add_to_cart"
+    },
+    {
+        "name": "Item_Populer 2",
+        "price": "20",
+        "type": "Add_to_cart"
+    },
+    {
+        "name": "Fancy Product",
+        "price": "40.00",
+        "type": "Add_to_cart"
+    },
+    {
+        "name": "Special Item",
+        "price": "20.00",
+        "type": "View options"
+    },
+    {
+        "name": "Sale Item",
+        "price": "50.00",
+        "type": "Add_to_cart"
+    },
+    {
+        "name": "Popular Item",
+        "price": "40.00",
+        "type": "View options"
+    },
+    {
+        "name": "Sale Item",
+        "price": "50.00",
+        "type": "Add_to_cart"
+    },
+    {
+        "name": "Fancy Product",
+        "price": "120.00",
+        "type": "View options"
+    }
+]
