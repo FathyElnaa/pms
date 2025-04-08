@@ -22,5 +22,11 @@
         "name": "fathy12",
         "email": "fathy12@gmail.com",
         "password": "$2y$10$FJVxWfCCTQowlgp7u7M3wuq8ucRKQy5oj\/COTIAxRC6XMqR7bdGle"
+    },
+    {
+        "id": 5,
+        "name": "fathy",
+        "email": "fathy@gmail.com",
+        "password": "$2y$10$inFbvp1bVi.YWPjiAGZjpOF35auGeGGJnJDbON0PKnldfA0KecRWa"
     }
 ]

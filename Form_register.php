@@ -13,12 +13,12 @@
     </div>
 
     <div class="mb-3">
-        <label for="password" class="form-label">PassWord:</label>
+        <label for="password" class="form-label">Password:</label>
         <input type="password" id="password" name="password" class="form-control">
     </div>
 
     <div class="mb-3">
-        <label for="confirm_password" class="form-label">Confirm PassWord:</label>
+        <label for="confirm_password" class="form-label">Confirm Password:</label>
         <input type="password" id="confirm_password" name="confirm_password" class="form-control">
     </div>
 

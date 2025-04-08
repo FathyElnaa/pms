@@ -81,13 +81,8 @@ function add_product($name, $price, $type)
 {
     $Glob_Add_Product = $GLOBALS['data_product_json'];
     $Products = file_exists($Glob_Add_Product) ? json_decode(file_get_contents($Glob_Add_Product), true) : [];
-    if (empty($Products)) {
-        $id = 1;
-    } else {
-        $id = max(array_column($Products, "id")) + 1;
-    }
+    
     $product_data = [
-        "id" => $id,
         'name' => $name,
         'price' => $price,
         'type' => $type
@@ -159,7 +154,6 @@ function process_checkout($name, $email, $address, $phone, $notes)
 
     $existingOrders[] = $order;
     file_put_contents($GLOBAL_ordersFile, json_encode($existingOrders, JSON_PRETTY_PRINT));
-
     clear_cart();
 
     return true;

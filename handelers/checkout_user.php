@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 include "../core/validations.php";
 include "../core/functions.php";
@@ -9,17 +10,17 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
     $email=$_POST['email'];
     $address=$_POST['address'];
     $phone=$_POST['number'];
-    $Notes=$_POST['text'];
+    $notes=$_POST['text'];
     
 
-    $error= validate_checkout($name,$email,$address,$phone,$Notes);
+    $error= validate_checkout($name,$email,$address,$phone,$notes);
     if(!empty($error)){
         set_message('danger',$error);
         header("Location: ../checkout.php");
         exit;
      }
 
-    if(process_checkout($name, $email, $address, $phone, $Notes)){
+    if(process_checkout($name, $email, $address, $phone, $notes)){
         set_message('success', "Order sucessfully");
         header("Location: ../index.php");
         exit;
@@ -28,7 +29,5 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
         set_message('danger', "Fail Order");
         header("Location: ../index.php");
         exit;
-    }
-
-
+    }    
 }

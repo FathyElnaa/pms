@@ -36,5 +36,24 @@
                 "quantity": 5
             }
         ]
+    },
+    {
+        "name": "fathy",
+        "email": "fathy@gmail.com",
+        "address": "cairo",
+        "phone": "0125836936489",
+        "notes": "good",
+        "items": [
+            {
+                "name": "Item_Populer",
+                "price": "15",
+                "quantity": 3
+            },
+            {
+                "name": "Special Item",
+                "price": "20.00",
+                "quantity": 4
+            }
+        ]
     }
 ]

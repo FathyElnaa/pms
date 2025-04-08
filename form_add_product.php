@@ -3,7 +3,7 @@
 <h2>Add Product Form</h2>
 <form action="handelers/add_product.php" method="POST">
     <div class="mb-3">
-    <input type="hidden" name="id" value="<?php echo $id; ?>">
+    <input type="hidden" name="id" value="<?= $id?>">
     </div>
     <div class="mb-3">
         <label for="name" class="form-label">Name:</label>
@@ -19,7 +19,7 @@
     <div class="mb-3">
         <label for="type" class="form-label">Product Type:</label>
         <select name="type" id="type" class="form-select">
-            <option value="Add_to_cart" >Add to cart</option>
+            <option value="Add_to_cart"  >Add to cart</option>
             <option value="View options" >View options</option>
         </select>
     </div>

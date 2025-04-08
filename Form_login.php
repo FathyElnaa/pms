@@ -9,7 +9,7 @@
    </div>
 
    <div class="mb-3">
-       <label for="password" class="form-label">PassWord:</label>
+       <label for="password" class="form-label">Password:</label>
        <input type="password" id="password" name="password" class="form-control">
    </div>
 
